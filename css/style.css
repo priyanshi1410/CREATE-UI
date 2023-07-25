@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    width: 400px;
+    height: 600px; 
+    /* background-image: url(../img/things-together-communication-internet.jpg); */
+    border:3epx solid black;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 50px;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+/* .details{
+    padding-top: 25px;
+} */
+input{
+    width: 50%;
+    display: block;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+h1{
+    padding: 35px;
+    color: rgb(0, 0, 0);
+}
+img{
+    width: 200px;
+}
+#output{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.lable-color{
+    color: rgb(1, 1, 1);
+    font-size: 20px;
+}
+.btn{
+    background-color: rgb(142, 70, 70);
+    color: black;
+    padding: 7px 20px;
+    transition: all 0.5s;
+    margin-top: 50px;
+}
+.btn:hover{
+    background-color: transparent;
+    color: #000000;
+}
